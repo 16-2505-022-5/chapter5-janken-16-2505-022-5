@@ -16,6 +16,7 @@ class ResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_result)
         val id = intent.getIntExtra("MY_HAND",0)
 
+
         val myHand: Int
         myHand = when(id) {
 
